@@ -1,0 +1,62 @@
+.galerie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+  max-width: 1300px;
+  margin: 0 auto; 
+}
+
+.galerie img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Umbra mai subtilă */
+}
+
+body {
+  background-color: rgb(214, 234, 240); /* Schimbat la un ton mai deschis de albastru */
+}
+
+.pages {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.buton-rosu {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #006a7f; /* Nuanta mai rece */
+  color: white;
+  text-decoration: none; 
+  border-radius: 10px; 
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+.buton-rosu:hover {
+  background-color: #004c60; /* Nuanta mai inchisa */
+}
+
+@media screen and (max-width: 700px) {
+  .galerie {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .galerie img {
+      height: 200px; 
+  }
+
+  .buton-rosu {
+      font-size: 14px;
+      padding: 10px 20px;
+  }
+
+  .pages {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+}

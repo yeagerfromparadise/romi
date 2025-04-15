@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+body {
+    background-color: rgb(227, 238, 246); /* Albăstrui deschis */
+}
+
+.statis1 {
+    width: auto;
+    margin-left: 23%;
+    float: left;
+    background-color: #5c8b9f; /* Albastru rece */
+}
+
+table {
+    margin: auto;
+    border: 2px solid rgb(34, 47, 62); /* Gri închis */
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #e1f0f6; /* Albastru palid */
+}
+
+td, th {
+    padding: 10px 100px 10px 10px;
+    border: 2px solid #2b2d35; /* Gri închis */
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.statis2 {
+    float: left;
+    width: auto;
+    margin-left: 6%;
+    background-color: #5c8b9f;
+}
+
+.tradi {
+    clear: left;
+}
+
+h4 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+.hash1 {
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tradi {
+    margin-left: 12%;
+    padding-top: 2%;
+}
+
+.metode {
+    margin-left: 12%;
+    padding-top: 2%;
+}
+
+.form-container {
+    background-color: rgb(224, 239, 249); /* Albastru deschis */
+    padding: 5px 30px 30px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: auto;
+    border: 3px #3d4f62 solid; /* Albastru închis */
+    margin-bottom: 3%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006a7f; /* Albastru rece */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004c60; /* Albastru închis */
+}
+
+.pages {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.buton-rosu {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #006a7f;
+    color: white;
+    text-decoration: none; 
+    border-radius: 10px; 
+    font-size: 16px;
+    transition: background-color 0.3
+}
